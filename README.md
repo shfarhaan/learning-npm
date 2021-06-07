@@ -26,3 +26,4 @@ We open the terminal and write `npm install eslint@5.2.0 -g`, thus the syntax to
 We open the terminal and write `npm outdated -g`, thus the command helps us to find outdated packages globally.
 
 ### To Remove a Package
+We open the terminal and write `npm uninstall package-name`, thus the command helps us to remove any package that we have installed in our project.
