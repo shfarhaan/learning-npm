@@ -27,3 +27,8 @@ We open the terminal and write `npm outdated -g`, thus the command helps us to f
 
 ### To Remove a Package
 We open the terminal and write `npm uninstall package-name`, thus the command helps us to remove any package that we have installed in our project.
+
+### Semantic Versioning 
+The process of assigning unique version numbers to every release. Within a given version number category, these numbers are generally assigned in increasing order and correspond to new developments in the release.
+
+![semantic versioning](https://user-images.githubusercontent.com/19478310/121196412-48f92500-c892-11eb-811c-6fb1cedbac5d.PNG)
