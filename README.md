@@ -32,3 +32,10 @@ We open the terminal and write `npm uninstall package-name`, thus the command he
 The process of assigning unique version numbers to every release. Within a given version number category, these numbers are generally assigned in increasing order and correspond to new developments in the release.
 
 ![semantic versioning](https://user-images.githubusercontent.com/19478310/121196412-48f92500-c892-11eb-811c-6fb1cedbac5d.PNG)
+
+### What is Package-lock.json
+When we do an npm install **package.json** file is the input and **package-lock.json** file is the output, **package-lock.json** file ensures the same install everytime we do an npm install.
+
+### Cleaning npm cache
+In case of any issues found after generating report with `npm cache verify` is there are any problems it is suggested to clean the cache. To do so we need to write `npm cache clean --force` in the terminal to clean the cache.
+ 
