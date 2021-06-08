@@ -38,4 +38,7 @@ When we do an npm install **package.json** file is the input and **package-lock.
 
 ### Cleaning npm cache
 In case of any issues found after generating report with `npm cache verify` is there are any problems it is suggested to clean the cache. To do so we need to write `npm cache clean --force` in the terminal to clean the cache.
- 
+
+### Performing an NPM Audit
+If there are any packages that have any issues, we need to perform an npm audit. To perform an audit we write `npm audit` in the terminal and then depending on the severity of the issue we use `npm install package-name` for the package that is causing that issue or is showing such severity.
+
